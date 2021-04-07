@@ -13,8 +13,8 @@ class CarritoWidget extends StatelessWidget {
           body: Stack(
             children: [
               ListView.builder(
-                itemCount: estado.getProductos().length,
-                itemBuilder: (context, index) => Item(estado.getProductos()[index]),
+                itemCount: estado.carrito.length,
+                itemBuilder: (context, index) => Item(estado.carrito[index]),
               ),
               Align(
                 alignment: Alignment.bottomCenter,
@@ -31,6 +31,6 @@ class Total extends StatelessWidget {
   Widget build(BuildContext context) =>
     Consumer<Carrito>(
       builder: (context, estado, child) =>
-          Text('Total: ' + estado.getPrecioTotal().toString()),
+          Text('Total: ' + estado.precioTotal.toString()),
     );
 }
