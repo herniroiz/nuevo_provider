@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
-import 'package:nuevo_provider/mocks/productos.dart';
-import 'package:nuevo_provider/modelo/producto.dart';
+import 'package:ejemplo_provider/mocks/productos.dart';
+import 'package:ejemplo_provider/modelo/producto.dart';
 
 class Carrito extends ChangeNotifier{
   List<Producto> _carrito = [];

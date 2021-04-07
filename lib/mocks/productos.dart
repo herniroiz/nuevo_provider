@@ -1,4 +1,4 @@
-import 'package:nuevo_provider/modelo/producto.dart';
+import 'package:ejemplo_provider/modelo/producto.dart';
 
 final List<Producto> productos = [
   Producto('Taza de plastico', 10),

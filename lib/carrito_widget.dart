@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:nuevo_provider/item.dart';
-import 'package:nuevo_provider/modelo/carrito.dart';
+import 'package:ejemplo_provider/item.dart';
+import 'package:ejemplo_provider/modelo/carrito.dart';
 import 'package:provider/provider.dart';
 
 class CarritoWidget extends StatelessWidget {
